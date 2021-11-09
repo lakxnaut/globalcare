@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>842617529598-vbkqhfcjpttj81rn8265gqacd869hol2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.842617529598-vbkqhfcjpttj81rn8265gqacd869hol2</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>842617529598-fsmlleloggpnlg8b87t1956bahob7hov.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDHLghA9Lsdnp4YDlb5Nn9n-8rln1qJZfg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>842617529598</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.globalneuro.care</string>
+	<key>PROJECT_ID</key>
+	<string>globalcarenew</string>
+	<key>STORAGE_BUCKET</key>
+	<string>globalcarenew.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:842617529598:ios:7fc24736df884aaf59f1af</string>
+	<key>DATABASE_URL</key>
+	<string>https://globalcarenew-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
