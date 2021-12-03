@@ -1,4 +1,4 @@
-package com.globalneuro.care
+package com.global.care
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:global_nuero_care/string.dart';
 
 class UploadPrescriptionScreen extends StatelessWidget {
   const UploadPrescriptionScreen({Key? key}) : super(key: key);
@@ -8,6 +9,7 @@ class UploadPrescriptionScreen extends StatelessWidget {
     return SafeArea(
         child: Scaffold(
             body: Container(
+                margin: EdgeInsets.all(20),
                 color: Colors.grey.shade50,
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -75,7 +77,7 @@ class UploadPrescriptionScreen extends StatelessWidget {
                                     Padding(
                                       padding: const EdgeInsets.only(top: 10),
                                       child: Text(
-                                        "Gallery",
+                                        "Past Rx",
                                         style: TextStyle(
                                             fontWeight: FontWeight.bold),
                                       ),
@@ -89,11 +91,15 @@ class UploadPrescriptionScreen extends StatelessWidget {
                       ),
                     ),
                     Container(
-                      margin: EdgeInsets.symmetric(horizontal: 25, vertical: 8),
+                      margin: EdgeInsets.symmetric(horizontal: 10, vertical: 8),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text("PRESCRIPTION GUIDE"),
+                          Text(
+                            "PRESCRIPTION GUIDE",
+                            style: TextStyle(
+                                fontSize: 25, fontWeight: FontWeight.bold),
+                          ),
                           SizedBox(
                             height: 18,
                           ),
@@ -135,9 +141,14 @@ class UploadPrescriptionScreen extends StatelessWidget {
                     ),
                     Spacer(),
                     Container(
+                      // color: ksafroncolor,
                       width: MediaQuery.of(context).size.width / 1.5,
                       child: ElevatedButton(
-                          onPressed: () {}, child: Text("CONTINUE")),
+                          style: ElevatedButton.styleFrom(
+                              primary: ksafroncolor,
+                              shape: StadiumBorder(side: BorderSide())),
+                          onPressed: () {},
+                          child: Text("CONTINUE")),
                     ),
                     SizedBox(
                       height: 10,

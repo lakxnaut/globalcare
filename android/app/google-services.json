@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "842617529598",
+    "firebase_url": "https://globalcarenew-default-rtdb.firebaseio.com",
+    "project_id": "globalcarenew",
+    "storage_bucket": "globalcarenew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842617529598:android:25b7e639005f21b059f1af",
+        "android_client_info": {
+          "package_name": "com.global.care"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842617529598-2qj5apclju5s32217qo4cthcgsnm0qeo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.global.care",
+            "certificate_hash": "d4c9caa82cfc9af6816c381c1c206db5bfd52680"
+          }
+        },
+        {
+          "client_id": "842617529598-morse5pd0figfnn8dbm6gq1gjdju4e60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdkViSlOVMqXMryLMNg6riajkaqDmQFek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "842617529598-morse5pd0figfnn8dbm6gq1gjdju4e60.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "842617529598-vbkqhfcjpttj81rn8265gqacd869hol2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.globalneuro.care"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842617529598:android:49cfdb797d71a9a659f1af",
+        "android_client_info": {
+          "package_name": "com.globalneuro.care"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842617529598-mq2ksvqmcc6esekmanhi476rlmbaif1d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.globalneuro.care",
+            "certificate_hash": "6465c5e56cc00a50507fee1e8ad1668256bb9c23"
+          }
+        },
+        {
+          "client_id": "842617529598-morse5pd0figfnn8dbm6gq1gjdju4e60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdkViSlOVMqXMryLMNg6riajkaqDmQFek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "842617529598-morse5pd0figfnn8dbm6gq1gjdju4e60.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "842617529598-vbkqhfcjpttj81rn8265gqacd869hol2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.globalneuro.care"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842617529598:android:c64da443b8162f3459f1af",
+        "android_client_info": {
+          "package_name": "com.new.global"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842617529598-onkofnqvrnnvjjsehv5kptrhoddeaf3f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.new.global",
+            "certificate_hash": "d4c9caa82cfc9af6816c381c1c206db5bfd52680"
+          }
+        },
+        {
+          "client_id": "842617529598-morse5pd0figfnn8dbm6gq1gjdju4e60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdkViSlOVMqXMryLMNg6riajkaqDmQFek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "842617529598-morse5pd0figfnn8dbm6gq1gjdju4e60.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "842617529598-vbkqhfcjpttj81rn8265gqacd869hol2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.globalneuro.care"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

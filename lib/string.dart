@@ -1,6 +1,6 @@
+import 'package:flutter/material.dart';
+
 // class Englishlang{
-  
-    
 
 //     static const String open="Open";
 //     static const String close="Close";
@@ -73,10 +73,6 @@
 //     static const String note=Note;
 //     static const String fill_your_details=Fill Your Details;
 
-
-
 // }
 
-
-
-
+const ksafroncolor = Color(0xFFFFA012);

@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.globalneuro.care">
+    package="com.global.care">
    <application
         android:label="Global Nuero Care"
         android:icon="@mipmap/ic_launcher">

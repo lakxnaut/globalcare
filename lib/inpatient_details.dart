@@ -1,10 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_connect/http/src/utils/utils.dart';
+import 'package:global_nuero_care/string.dart';
+import 'package:image_picker/image_picker.dart';
+import 'components/TextfieldWidget.dart';
 
-class InpatientDetails extends StatelessWidget {
+class InpatientDetails extends StatefulWidget {
   const InpatientDetails({Key? key}) : super(key: key);
 
   @override
+  State<InpatientDetails> createState() => _InpatientDetailsState();
+}
+
+class _InpatientDetailsState extends State<InpatientDetails> {
+  @override
+  final ImagePicker _picker = ImagePicker();
+
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset: false,
@@ -14,12 +24,12 @@ class InpatientDetails extends StatelessWidget {
       body: SafeArea(
           child: Container(
         height: MediaQuery.of(context).size.height,
-        padding: EdgeInsets.all(15),
+        padding: EdgeInsets.only(top: 0, bottom: 15, left: 5),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Padding(
-              padding: const EdgeInsets.only(top: 15, bottom: 8),
+              padding: const EdgeInsets.only(top: 10, bottom: 8),
               child: Text(
                 "Patient Personal Details",
                 style: TextStyle(
@@ -65,44 +75,16 @@ class InpatientDetails extends StatelessWidget {
             Expanded(child: TextfieldWidget(labeltext: "Enter Sponsered Name")),
             Center(
               child: Container(
-                  width: MediaQuery.of(context).size.width / 1.5,
-                  child: ElevatedButton(onPressed: () {}, child: Text("data"))),
+                  width: MediaQuery.of(context).size.width / 2.5,
+                  child: ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                          primary: ksafroncolor, shape: StadiumBorder()),
+                      onPressed: () {},
+                      child: Text("Submit"))),
             )
           ],
         ),
       )),
-    );
-  }
-}
-
-class TextfieldWidget extends StatelessWidget {
-  final String labeltext;
-  TextfieldWidget({this.labeltext = ""});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      margin: EdgeInsets.symmetric(vertical: 5),
-      width: MediaQuery.of(context).size.width,
-      child: TextFormField(
-        decoration: InputDecoration(
-          labelText: labeltext,
-          fillColor: Colors.white,
-          focusedBorder: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(18.0),
-            borderSide: BorderSide(
-              color: Colors.blue,
-            ),
-          ),
-          enabledBorder: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(15.0),
-            borderSide: BorderSide(
-              color: Colors.red,
-              width: 1.0,
-            ),
-          ),
-        ),
-      ),
     );
   }
 }
